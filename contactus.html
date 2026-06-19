@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+content="College Transport System providing safe and reliable transport services for students.">
+
+<meta name="keywords"
+content="college transport, shuttle service, student transport, bus routes">
+
+<meta name="author"
+content="Athobe Ntshonga">
+    <title>College Transport System | Safe Student Transport</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error{
+            color:red;
+            font-size:14px;
+        }
+
+        .success{
+            color:green;
+            font-weight:bold;
+        }
+
+        form{
+            max-width:600px;
+            margin:auto;
+        }
+
+        input, select, textarea{
+            width:100%;
+            padding:10px;
+            margin-bottom:10px;
+        }
+        body {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+   <header>
+         <div class="logo">CTS</div>
+    <nav>
+        <ul>
+             <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+             <li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+    </nav>
+    </header>
+    <h1>Get in touch with us</h1>
+    <p>Contact: 0655414887<br>Email to: ntshongaathobe07@gmail.com</p>
+    <form id="contactForm">
+
+    <label>Full Name</label>
+    <input type="text" id="fullName">
+
+    <label>Email</label>
+    <input type="email" id="contactEmail">
+
+    <label>Phone Number</label>
+    <input type="tel" id="phone">
+
+    <label>Message Type</label>
+
+    <select id="messageType">
+        <option value="">Select</option>
+        <option value="Complaint">Complaint</option>
+        <option value="Suggestion">Suggestion</option>
+        <option value="Lost Property">Lost Property</option>
+        <option value="General Enquiry">General Enquiry</option>
+    </select>
+
+    <label>Message</label>
+    <textarea id="contactMessage"></textarea>
+
+    <button type="submit">Send Message</button>
+
+</form>
+<div id="contactResult"></div>
+
+<script src="contact.js"></script>
+
+    <h2>Locate Us In Cape Town</h2>
+    <!--Google Maps Embed-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.718186021097!2d18.41927847551072!3d-33.922651973206186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc6763fd9fc71d%3A0x2abee32ef838f9b8!2sRosebank%20College%20Cape%20Town%20Campus!5e0!3m2!1sen!2sza!4v1776637828587!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+    <h3>Locate Us In Khayelitsha</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d791.8853158209891!2d18.69984432217478!3d-34.05088567287145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc496f58502145%3A0x1fb017e362e07c3b!2s14%20Galela%20St%2C%20T3-V3%2C%20Cape%20Town%2C%207784!5e0!3m2!1sen!2sza!4v1776638353351!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 MySite. All rights reserved.</p>
+    </footer>
+</body>
+</html>

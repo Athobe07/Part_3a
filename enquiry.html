@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+content="College Transport System providing safe and reliable transport services for students.">
+
+<meta name="keywords"
+content="college transport, shuttle service, student transport, bus routes">
+
+<meta name="author"
+content="Athobe Ntshonga">
+    <title>College Transport System | Safe Student Transport</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error{
+            color:red;
+            font-size:14px;
+        }
+
+        .success{
+            color:green;
+            font-weight:bold;
+        }
+
+        form{
+            max-width:600px;
+            margin:auto;
+        }
+
+        input, select, textarea{
+            width:100%;
+            padding:10px;
+            margin-bottom:10px;
+        }
+        body {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+         <div class="logo">CTS</div>
+    <nav>
+        <ul>
+             <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+             <li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+    </nav>
+    </header>
+    <h1>Transport Enquiry Form</h1>
+    <form id="enquiryForm">
+
+    <label>Full Name</label>
+    <input type="text" id="name">
+
+    <label>Email Address</label>
+    <input type="email" id="email">
+
+    <label>Enquiry Type</label>
+    <select id="enquiryType">
+        <option value="">Select an option</option>
+        <option value="fees">Transport Fees</option>
+        <option value="route">Bus Routes</option>
+        <option value="availability">Seat Availability</option>
+        <option value="special">Special Request</option>
+    </select>
+
+    <label>Message</label>
+    <textarea id="message" rows="5"></textarea>
+
+    <button type="submit">Submit Enquiry</button>
+
+</form>
+
+<div id="response"></div>
+
+<script src="enquiry.js"></script><br>
+<footer>
+        <p>&copy; 2026 MySite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
