@@ -46,8 +46,41 @@ content="Athobe Ntshonga">
     <br><br>
     <img src="images/kids-on-bus.png" style="height: 50%; margin-left: 40px;">
     <img src="images/university students from transport.webp" style="height: 50%; margin-left: 20px;"> <br><br>
+     <button id="joinBtn">Join Us</button>
+    <div id="joinFormContainer" style="display:none;">
+    <h2>Student Transport Registration</h2>
 
-    <button class="#"><a href="#">Join Us</a></button>
+    <form id="joinForm">
+
+        <label>Full Name</label>
+        <input type="text" id="studentName">
+
+        <label>Student Number</label>
+        <input type="text" id="studentNumber">
+
+        <label>Email Address</label>
+        <input type="email" id="studentEmail">
+
+        <label>Pickup Area</label>
+        <select id="pickupArea">
+            <option value="">Select Area</option>
+            <option value="Cape Town CBD">Cape Town CBD</option>
+            <option value="Khayelitsha">Khayelitsha</option>
+            <option value="Mitchells Plain">Mitchells Plain</option>
+            <option value="Bellville">Bellville</option>
+            <option value="Parow">Parow</option>
+        </select>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <div id="joinResponse"></div>
+</div>
+
+    
+</div>
+<script src="join.js"></script>
 </div>
    
      <!--SCRIPT-->
